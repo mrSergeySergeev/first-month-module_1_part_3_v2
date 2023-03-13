@@ -1,0 +1,292 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'manrope', sans-serif;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+    letter-spacing: -0.03em;
+}
+
+header {
+    margin: auto;
+    padding: 33px 125px 0 125px;
+    width: 1400px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav__link {
+    margin-left: 58px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav__link:hover {
+    color: #121212;
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+section {
+    margin: auto;
+    width: 1400px;
+    padding: 150px 125px 0 125px;
+}
+
+h1,
+h2,
+h3 {
+    color: #121212;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+section:first-child {
+    margin-top: 0;
+    padding-top: 70px;
+}
+
+.section-long {
+    padding-bottom: 150px;
+}
+
+.section_full {
+    width: 100%;
+}
+
+.section-nopadd {
+    padding: 0;
+}
+
+.container-black {
+    background-color: #121212;
+}
+
+.container-black h1,
+.container-black h2,
+.container-black h3 {
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.interior {
+    position: relative;
+    margin-top: 30px;
+    width: 1150px;
+    height: 500px;
+    background-image: url('../resources/chair.jpg');
+}
+
+.image_text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+}
+
+p.description {
+    margin-top: 30px;
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+}
+
+a.btn {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 27px;
+    background-color: #ad1818;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects .project {
+    margin-top: 88px;
+}
+
+.projects :first-child {
+    margin-top: 0;
+}
+
+.project__image {
+    margin-bottom: 15px;
+}
+
+.project__title {
+    margin-bottom: 14px;
+}
+
+.project__link {
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+    text-decoration: none;
+}
+
+.fullwidhtbtn {
+    margin-top: 90px;
+    display: block;
+    width: 100%;
+    height: 153px;
+    line-height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #AD1818;
+    font-size: 30px;
+}
+
+.fullwidhtbtn:hover {
+    background-color: #AD1818;
+    color: #fff;
+}
+
+.services {
+    margin-top: 34px;
+}
+
+.services .service {
+    margin-top: 60px;
+}
+
+.services :first-child {
+    margin-top: 0;
+}
+
+.service-title {
+    margin-top: 80px;
+}
+
+.service__image {
+    margin-bottom: 13px;
+}
+
+.fullwidhtimage {
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background: url('../resources/example_project.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.fullwidhtimage__text {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.phone-before::before {
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    margin-left: -5px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resources/telephone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts__phone {
+    display: block;
+    margin-top: 32px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contacts__email {
+    display: block;
+    margin-top: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    opacity: 0.5;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    padding: 70px 0 30px 0;
+}
+
+.footer__nav {
+    margin: auto;
+    display: block;
+    width: 460px;
+}
+
+.footer__nav a {
+    margin-left: 54px;
+    color: #fff;
+}
+
+.footer__nav a:first-child {
+    margin: 0;
+}
+
+.footer__nav a:hover,
+.footer__nav a:active {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.footer__text {
+    margin-top: 87px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    opacity: 0.5;
+}
