@@ -87,6 +87,7 @@ section:first-child {
 }
 
 .container-black {
+    min-width: 1400px;
     background-color: #121212;
 }
 
@@ -208,6 +209,7 @@ a.btn {
 .fullwidhtimage {
     position: relative;
     width: 100%;
+    min-width: 1400px;
     height: 717px;
     background: url('../resources/example_project.jpg');
     background-size: cover;
