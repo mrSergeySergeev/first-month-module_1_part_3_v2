@@ -13,14 +13,14 @@
         padding-right: 12px;
     }
 
-    .main-inner__title {
+    .welcome-section__title {
         margin-bottom: 25px;
         width: 100%;
         font-size: 30px;
         line-height: 32px;
     }
 
-    .main-inner__subtitle {
+    .welcome-section__subtitle {
         left: 15px;
         bottom: 15px;
         width: 312px;
@@ -28,14 +28,14 @@
         line-height: 22px;
     }
 
-    .about-us__description {
+    .about-us-section__description {
         margin-bottom: 30px;
         width: 100%;
         font-size: 22px;
         line-height: 30px;
     }
 
-    .about-us__link {
+    .about-us-section__link {
         padding: 14px 27px 14px 27px;
         border-radius: 5px;
         color: #fff;

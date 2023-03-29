@@ -38,11 +38,11 @@ a {
     background-color: #fff;
 }
 
-.main-inner {
+.welcome-section {
     width: 100%;
 }
 
-.main-inner__title {
+.welcome-section__title {
     margin-bottom: 30px;
     width: 956px;
     font-size: 60px;
@@ -59,7 +59,7 @@ a {
     background-repeat: no-repeat;
 }
 
-.main-inner__subtitle {
+.welcome-section__subtitle {
     position: absolute;
     left: 40px;
     bottom: 40px;
@@ -69,18 +69,18 @@ a {
     color: #fff;
 }
 
-.about-us {
+.about-us-section {
     width: 100%;
 }
 
-.about-us__description {
+.about-us-section__description {
     margin-bottom: 50px;
     width: 1048px;
     font-size: 45px;
     line-height: 61px;
 }
 
-.about-us__link {
+.about-us-section__link {
     display: inline-block;
     padding: 20px 40px 20px 40px;
     border-radius: 5px;
@@ -91,7 +91,7 @@ a {
     transition: all 0.2s;
 }
 
-.about-us__link:hover {
+.about-us-section__link:hover {
     transform: rotate(5deg);
     scale: 1.2;
 }
