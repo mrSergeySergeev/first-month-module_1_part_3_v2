@@ -134,3 +134,37 @@ a {
     color: #fff;
     background-color: #ad1818;
 }
+
+.services-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.service {
+    width: calc(50% - 10px);
+}
+
+.service__wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.service__image {
+    width: 100%;
+    height: auto;
+}
+
+.service__title {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.service__subtitle{
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    display: flex;
+}
