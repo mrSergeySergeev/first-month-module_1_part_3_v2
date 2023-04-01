@@ -1,3 +1,8 @@
+@import "/styles/welcome-section.css";
+@import "/styles/about-us-section.css";
+@import "/styles/projects-section.css";
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -38,105 +43,41 @@ a {
     background-color: #fff;
 }
 
-.welcome-section {
-    width: 100%;
+@media (max-width: 1199px) {
+
+    .container {
+        margin-bottom: 120px;
+        width: 960px;
+        padding-left: 17px;
+        padding-right: 15px;
+    }    
 }
 
-.welcome-section__title {
-    margin-bottom: 30px;
-    width: 956px;
-    font-size: 60px;
-    line-height: 60px;
+@media (max-width: 767px) {
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .container {
+        margin-bottom: 80px;
+        width: 100%;
+        padding-left: 13px;
+        padding-right: 12px;
+    }
 }
 
-.title-image {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0.52%,rgba(0, 0, 0, 0.4) 82.81%), url('../resources/title-image-background.jpg');
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
 
-.welcome-section__subtitle {
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
-    width: 430px;
-    font-size: 20px;
-    line-height: 27px;
-    color: #fff;
-}
 
-.about-us-section {
-    width: 100%;
-}
 
-.about-us-section__description {
-    margin-bottom: 50px;
-    width: 1048px;
-    font-size: 45px;
-    line-height: 61px;
-}
 
-.about-us-section__link {
-    display: inline-block;
-    padding: 20px 40px 20px 40px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #ad1818;
-    font-size: 20px;
-    text-decoration: none;
-    transition: all 0.2s;
-}
 
-.about-us-section__link:hover {
-    transform: rotate(5deg);
-    scale: 1.2;
-}
-
-.project {
-    margin-bottom: 90px;
-}
-
-.project__image {
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.project__title {
-    margin-bottom: 15px;
-    font-size: 30px;
-    line-height: 41px;
-}
-
-.project__link {
-    font-size: 20px;
-    line-height: 27px;
-    color: #ad1818;
-    text-decoration: none;
-}
-
-.look-all-projects {
-    display: block;
-    font-size: 30px;
-    line-height: 153px;
-    color: #ad1818;
-    text-decoration: none;
-    border: 1px solid #ad1818;
-    border-radius: 5px;
-    text-align: center;
-    transition: all 0.3s;
-}
-
-.look-all-projects:hover {
-    color: #fff;
-    background-color: #ad1818;
-}
 
 .black-section {
     background-color: #000;
+    min-width: 1400px;
 }
 
 .black-container {
