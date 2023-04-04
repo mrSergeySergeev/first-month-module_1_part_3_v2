@@ -1,0 +1,14 @@
+.feedback-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.feedback {
+    width: calc(50% - 25px);    
+}
+
+.feedback:last-child:nth-child(odd) {
+    width: calc(50% + 25%);
+}

@@ -1,6 +1,8 @@
 @import "/styles/welcome-section.css";
 @import "/styles/about-us-section.css";
 @import "/styles/projects-section.css";
+@import "/styles/services-section.css";
+@import "/styles/feedback-section.css";
 
 
 html {
@@ -43,6 +45,18 @@ a {
     background-color: #fff;
 }
 
+.black-section {
+    background-color: #000;
+    min-width: 1400px;
+}
+
+.black-container {
+    margin: 0 auto;
+    padding-left: 125px;
+    padding-right: 125px;
+    width: 1400px;
+}
+
 @media (max-width: 1199px) {
 
     .container {
@@ -69,57 +83,3 @@ a {
     }
 }
 
-
-
-
-
-
-
-.black-section {
-    background-color: #000;
-    min-width: 1400px;
-}
-
-.black-container {
-    margin: 0 auto;
-    padding-left: 125px;
-    padding-right: 125px;
-    width: 1400px;
-}
-
-.services-inner {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 20px;
-}
-
-.service {
-    width: calc(50% - 10px);
-}
-
-.service__wrapper {
-    position: relative;
-    width: 100%;
-}
-
-.service__image {
-    width: 100%;
-    height: auto;
-}
-
-.service__title {
-    font-size: 30px;
-    line-height: 41px;
-}
-
-.service__subtitle{
-    position: absolute; 
-    top: 31px;
-    left: 30px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 5px;
-    background-color: #ad1818;
-    color: #fff;
-}
