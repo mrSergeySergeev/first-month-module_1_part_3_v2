@@ -12,3 +12,13 @@
 .feedback:last-child:nth-child(odd) {
     width: calc(50% + 25%);
 }
+
+.feedback__title {
+    font-size: 45px;
+    line-height: 61px;
+}
+
+.feedback__text {
+    font-size: 22px;
+    line-height: 30px;
+}
