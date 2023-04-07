@@ -1,3 +1,8 @@
+.services-section h2,
+.services-section h3 {
+    color: #fff;
+}
+
 .services-inner {
     width: 100%;
     display: flex;
@@ -46,6 +51,8 @@
     }
 
     .service__subtitle {
+        top: 32px;
+        left: 32px;
         font-size: 20px;
         line-height: 27px;
 
@@ -55,5 +62,17 @@
 @media (max-width: 767px) { 
     .service {
         width: 100%;
+    }
+
+    .service__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .service__subtitle {
+        top: 23px;
+        left: 24px;
+        font-size: 14px;
+        line-height: 19px;
     }
 }
