@@ -34,3 +34,26 @@
     background-color: #ad1818;
     color: #fff;
 }
+
+@media (max-width: 1199px) {
+    .service {
+        width: calc(50% - 5px);
+    }
+
+    .service__title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .service__subtitle {
+        font-size: 20px;
+        line-height: 27px;
+
+    }
+}
+
+@media (max-width: 767px) { 
+    .service {
+        width: 100%;
+    }
+}
