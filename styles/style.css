@@ -1,8 +1,8 @@
-@import "/styles/welcome-section.css";
-@import "/styles/about-us-section.css";
-@import "/styles/projects-section.css";
-@import "/styles/services-section.css";
-@import "/styles/feedback-section.css";
+@import "styles/welcome-section.css";
+@import "styles/about-us-section.css";
+@import "styles/projects-section.css";
+@import "styles/services-section.css";
+@import "styles/feedback-section.css";
 
 
 html {
