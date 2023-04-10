@@ -22,3 +22,27 @@
     font-size: 22px;
     line-height: 30px;
 }
+
+@media (max-width: 1199px) {
+    .feedback {
+        width: calc(50% - 5px);
+    }
+
+    .feedback__title {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .feedback__text {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 767px) { 
+    .feedback {
+        min-width: 100%;
+        
+    }
+}
+
