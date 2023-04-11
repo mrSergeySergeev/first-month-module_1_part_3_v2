@@ -17,11 +17,7 @@
 
 .service {
     width: calc(50% - 10px);
-}
-
-.service__wrapper {
     position: relative;
-    width: 100%;
 }
 
 .service__image {
