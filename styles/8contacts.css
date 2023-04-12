@@ -1,7 +1,7 @@
 .contacts {
-    margin-top: 74px;
+    margin-top: 63px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: flex-end;
 }
 
@@ -15,6 +15,7 @@
 
 .contacts__mail {
     opacity: 0.5;
+    margin-left: 120px;
     padding-bottom: 10px;
     border-bottom: 2px solid #121212;
 

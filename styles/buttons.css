@@ -1,7 +1,8 @@
 .button {
     display: block;
     font-size: 30px;
-    line-height: 153px;
+    line-height: 41px;
+    padding: 56px 0;
     color: #ad1818;
     text-decoration: none;
     border: 1px solid #ad1818;
@@ -19,6 +20,8 @@
     color: #fff;
     background-color: #ad1818;
     cursor: pointer;
+    letter-spacing: -0.03em;
+
 }
 
 @media (max-width: 767px) {

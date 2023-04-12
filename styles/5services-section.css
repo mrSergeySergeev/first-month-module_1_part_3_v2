@@ -4,16 +4,16 @@
 }
  
 .services-list {
-    margin-bottom: 104px;
+    margin-bottom: 98px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 80px;
 }
 
 .service {
-    width: calc(50% - 10px);
+    width: calc(50% - 7px);
     position: relative;
 }
 
@@ -23,14 +23,17 @@
 }
 
 .service__title {
+    margin-top: 25px;
     font-size: 30px;
     line-height: 41px;
 }
 
 .service__subtitle{
     position: absolute; 
-    top: 31px;
+    top: 32px;
     left: 30px;
+    font-size: 22px;
+    line-height: 30px;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
     background-color: #ad1818;
