@@ -1,4 +1,5 @@
 @import "styles/heading.css";
+@import "/styles/buttons.css";
 @import "styles/2welcome-section.css";
 @import "styles/3about-us-section.css";
 @import "styles/4projects-section.css";
@@ -6,14 +7,16 @@
 @import "styles/6feedback-section.css";
 @import "styles/7gallery.css";
 @import "styles/8contacts.css";
-@import "/styles/9footer.css";
+@import "styles/9footer.css";
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
     font-family: 'Manrope', sans-serif;
+    height: 100%;
 }
 
 section,

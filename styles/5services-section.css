@@ -3,12 +3,8 @@
     padding-bottom: 150px;
 }
  
-/* .services-section h2,
-.services-section h3 {
-    color: #fff;
-} */
-
 .services-list {
+    margin-bottom: 104px;
     width: 100%;
     display: flex;
     justify-content: space-between;

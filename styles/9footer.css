@@ -14,5 +14,19 @@
 }
 
 .nav__link {
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color:#fff;
+    transition: all 0.5s;
+}
 
+.nav__link:hover {
+    opacity: 0.5;
+}
+
+.footer-title {
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
 }

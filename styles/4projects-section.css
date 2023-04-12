@@ -20,22 +20,7 @@
     text-decoration: none;
 }
 
-.look-all-projects {
-    display: block;
-    font-size: 30px;
-    line-height: 153px;
-    color: #ad1818;
-    text-decoration: none;
-    border: 1px solid #ad1818;
-    border-radius: 5px;
-    text-align: center;
-    transition: all 0.3s;
-}
 
-.look-all-projects:hover {
-    color: #fff;
-    background-color: #ad1818;
-}
 
 @media (max-width: 767px) {
     .project {
@@ -54,11 +39,5 @@
     .project__link {
         font-size: 16px;
         line-height: 22px;    
-    }
-
-    .look-all-projects {
-        margin-top: 60px;
-        font-size: 22px;
-        line-height: 100px;
     }
 }

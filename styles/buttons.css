@@ -1,0 +1,29 @@
+.button {
+    display: block;
+    font-size: 30px;
+    line-height: 153px;
+    color: #ad1818;
+    text-decoration: none;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #ad1818;
+}
+
+.reverse-button {
+    color: #fff;
+    background-color: #ad1818;
+}
+
+@media (max-width: 767px) {
+    .button {
+        margin-top: 60px;
+        font-size: 22px;
+        line-height: 100px;
+    }
+}
