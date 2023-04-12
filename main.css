@@ -4,6 +4,7 @@
 @import "styles/4projects-section.css";
 @import "styles/5services-section.css";
 @import "styles/6feedback-section.css";
+@import "styles/7gallery.css";
 
 html {
     scroll-behavior: smooth;
@@ -13,9 +14,11 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-section {
+section,
+.container {
     margin: 0 auto;
     width: 1400px;
+    height: 100%;
     padding-left: 125px;
     padding-right: 125px;
 }
