@@ -29,6 +29,10 @@
         font-size: 35px;
         line-height: 48px;
     }
+
+    .about-us-section__link {
+        padding: 23px 40px 23px 40px;
+    }
 }
 
 @media (max-width: 767px) {

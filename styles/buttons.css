@@ -21,7 +21,12 @@
     background-color: #ad1818;
     cursor: pointer;
     letter-spacing: -0.03em;
+}
 
+@media (max-width: 1199px) {
+    .button {
+        padding: 55px;
+    }
 }
 
 @media (max-width: 767px) {

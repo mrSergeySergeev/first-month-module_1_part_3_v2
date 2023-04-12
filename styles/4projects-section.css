@@ -20,7 +20,25 @@
     text-decoration: none;
 }
 
+@media (max-width: 1199px) {
+    .project {
+        margin-bottom: 80px;
+    }
 
+    .project__image {
+        margin-bottom: 15px;
+    }
+
+    .project__title {
+        margin-bottom: 9px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+    
+    .project:last-child {
+        margin-bottom: 98px;
+    }
+}
 
 @media (max-width: 767px) {
     .project {
