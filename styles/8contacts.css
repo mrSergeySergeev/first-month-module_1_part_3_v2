@@ -18,7 +18,6 @@
     margin-left: 120px;
     padding-bottom: 10px;
     border-bottom: 2px solid #121212;
-
 }
 
 .contacts__tel:before{
@@ -26,11 +25,12 @@
     top: -49px;
     content: "";    
     display: block;
-    width: 13px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     background-image: url('../resources/telephone.png');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .contacts__mail:before {
@@ -38,11 +38,12 @@
     top: -35px;
     content: "";
     display: block;
-    width: 20px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     background-image: url('../resources/mail.png');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media (max-width: 1199px) {
@@ -63,11 +64,21 @@
         line-height: 46px;
     }
 
+    .contacts__mail {
+        margin-left: 0;
+        border-bottom: none;
+    }
+    
+
     .contacts__tel:before {
-        top:-25px;
+        width: 18px;
+        height: 18px;
+        top:-40px;
     }
 
     .contacts__mail:before {
-        top: -25px;
+        width: 18px;
+        height: 18px;
+        top: -40px;
     }
 }

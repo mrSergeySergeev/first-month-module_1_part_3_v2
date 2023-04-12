@@ -32,6 +32,7 @@
 @media (max-width: 767px) {
     .button {
         margin-top: 60px;
+        padding: 0;
         font-size: 22px;
         line-height: 100px;
     }
