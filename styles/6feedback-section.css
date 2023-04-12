@@ -14,6 +14,7 @@
 }
 
 .feedback__title {
+    margin-bottom: 14px;
     font-size: 45px;
     line-height: 61px;
 }
@@ -29,6 +30,7 @@
     }
 
     .feedback__title {
+        margin-bottom: 25px;
         font-size: 35px;
         line-height: 48px;
     }
@@ -41,8 +43,18 @@
 
 @media (max-width: 767px) { 
     .feedback {
-        min-width: 100%;
-        
+        min-width: 100%;        
+    }
+
+    .feedback__title {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .feedback__text {
+        font-size: 16px;
+        line-height: 22px;
     }
 }
 

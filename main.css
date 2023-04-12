@@ -44,6 +44,10 @@ section,
         padding-right: 15px;
     }
 
+    .margin-top-section{
+        margin-top: 175px;
+    }
+
     .black-container {
         width: 100%;
         min-width: 960px;
@@ -55,6 +59,10 @@ section,
         width: 100%;
         padding-left: 13px;
         padding-right: 12px;
+    }
+
+    .margin-top-section {
+        margin-top: 80px;
     }
 
     .black-container {
