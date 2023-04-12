@@ -43,3 +43,30 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@media (max-width: 1199px) {
+    .contacts a {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts {
+        flex-direction: column;
+        align-items: start;
+        gap: 58px;
+    }
+
+    .contacts a {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .contacts__tel:before {
+        top:-25px;
+    }
+
+    .contacts__mail:before {
+        top: -25px;
+    }
+}

@@ -74,6 +74,10 @@
 }
 
 @media (max-width: 1199px) {
+    .gallery {
+        height: 80vh;
+    }
+
     .gallery__title {
         top: 80px;
         left: 50px;
@@ -103,6 +107,10 @@
 }
 
 @media (max-width: 767px) {
+    .gallery {
+        height: 60vh;
+    }
+
     .gallery__title {
         top: 61px;
         left: 12px;
