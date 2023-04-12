@@ -1,4 +1,4 @@
-.footer { 
+.footer {
     padding-top: 60px;
     padding-bottom: 30px;
     display: flex;
@@ -10,14 +10,14 @@
 .nav {
     width: 450px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 .nav__link {
     font-size: 18px;
     line-height: 25px;
     text-decoration: none;
-    color:#fff;
+    color: #fff;
     transition: all 0.5s;
 }
 

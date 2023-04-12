@@ -11,7 +11,7 @@
     font-size: 22px;
     line-height: 30px;
     text-transform: uppercase;
-    color: #fff;                                                
+    color: #fff;
 }
 
 .gallery__controls {
@@ -19,7 +19,7 @@
     bottom: 162px;
     z-index: 10;
     display: flex;
-    gap: 14px;    
+    gap: 14px;
 }
 
 .gallery__control-prev,
@@ -131,7 +131,7 @@
         width: 100%;
         left: 0;
         justify-content: space-between;
-        gap: 0;    
+        gap: 0;
     }
 
     .gallery__image {

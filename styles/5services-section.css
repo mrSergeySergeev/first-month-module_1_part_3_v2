@@ -2,7 +2,7 @@
     padding-top: 150px;
     padding-bottom: 150px;
 }
- 
+
 .services-list {
     margin-bottom: 98px;
     width: 100%;
@@ -28,8 +28,8 @@
     line-height: 41px;
 }
 
-.service__subtitle{
-    position: absolute; 
+.service__subtitle {
+    position: absolute;
     top: 32px;
     left: 30px;
     font-size: 22px;
@@ -69,7 +69,7 @@
     }
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .services-section {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -88,7 +88,7 @@
         font-size: 18px;
         line-height: 25px;
     }
-    
+
     .service__subtitle {
         top: 23px;
         left: 24px;

@@ -20,10 +20,10 @@
     border-bottom: 2px solid #121212;
 }
 
-.contacts__tel:before{
+.contacts__tel:before {
     position: absolute;
     top: -49px;
-    content: "";    
+    content: "";
     display: block;
     width: 24px;
     height: 24px;
@@ -68,12 +68,12 @@
         margin-left: 0;
         border-bottom: none;
     }
-    
+
 
     .contacts__tel:before {
         width: 18px;
         height: 18px;
-        top:-40px;
+        top: -40px;
     }
 
     .contacts__mail:before {
