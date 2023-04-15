@@ -1,4 +1,19 @@
 .header-section {
+    margin-top: 33px;
+    margin-bottom: 68px;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 1199px) {
+    .header-section {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-section {
+        margin-top: 31px;
+        margin-bottom: 61px;
+    }
 }

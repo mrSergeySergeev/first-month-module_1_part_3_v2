@@ -60,9 +60,11 @@
 
 .burger__content{
     width: 35vh;
+    max-height: 100%;
+    overflow-y: auto;
     padding: 80px 88px 65px 30px;
     background-color: #fff;
-    border-bottom-left-radius:30px ;
+    border-bottom-left-radius:30px;
 }
 
 .burger__logo {
@@ -71,6 +73,7 @@
 
 .burger__nav{
     margin-bottom: 90px;
+    width: 100%;
     flex-direction: column;
     gap: 20px;
 }
