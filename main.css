@@ -2,6 +2,7 @@
 @import "styles/buttons.css";
 @import "styles/nav.css";
 @import "styles/popup.css";
+@import "styles/inputs.css";
 @import "styles/1header.css";
 @import "styles/2welcome-section.css";
 @import "styles/3about-us-section.css";
@@ -49,6 +50,7 @@ section,
 }
 
 button {
+    background-color: #fff;
     font-family: inherit;
     cursor: pointer;
 }
