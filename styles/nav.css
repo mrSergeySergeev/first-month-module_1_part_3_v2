@@ -20,6 +20,12 @@
     opacity: 0.5;
 }
 
+@media (max-width: 1199px) {
+    .header-section__nav{
+        display: none;
+    }
+}
+
 @media (max-width: 767px)  {
     .nav {
         width: 281px;

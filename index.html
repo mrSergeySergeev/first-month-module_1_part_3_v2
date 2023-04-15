@@ -31,15 +31,20 @@
         </div>
     </div>
     </div>
-    <div class="burger">
-        <div class="burger__content">
-            <img src="resources/logo-metrica.png" alt="логотип сайта">
+    <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+            <img class="burger__logo" src="resources/logo-metrica.png" alt="логотип сайта">
             <nav class="nav burger__nav">
                 <a href="#about-us" class="nav__link">О НАС</a>
                 <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
                 <a href="#services" class="nav__link">УСЛУГИ</a>
                 <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
             </nav>
+            <div class="burger__contacts">
+                <p>для связи:</p>
+                <a class="burger__tel" href="tel:+79358954535">+7 935 895-45-35</a>
+                <a class="burger__mail" href="https://t.me/Cepera_CepreeB">Cepera_CepreeB</a>
+            </div>
         </div>
     </div>
     <header>
@@ -53,6 +58,9 @@
                 <a href="#services" class="nav__link">УСЛУГИ</a>
                 <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
             </nav>
+            <button class="js-burger-btn header-section__burger-open">
+                <div class="js-burger-icon burger-icon"></div>
+            </button>
         </section>
     </header>
     <main>
@@ -277,6 +285,7 @@
     </footer>
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
 </body>
 
 </html>
