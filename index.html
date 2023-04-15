@@ -16,7 +16,9 @@
 <body>
     <header>
         <section class="header-section">
-            <img class="header-section__logo" src="resources/logo-metrica.png" alt="логотип сайта">
+            <div class="header-section__logo">
+                <img src="resources/logo-metrica.png" alt="логотип сайта">
+            </div>
             <nav class="nav header-section__nav">
                 <a href="#about-us" class="nav__link">О НАС</a>
                 <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
@@ -247,14 +249,19 @@
     </footer>
     <div class="popup">
         <div class="popup__content">
-
+            <p class="popup__title"></p>
+            <p class="popup__subtitle"></p>
+            <input class="popup__input popup__input-name" type="text">
+            <input class="popup__input popup__input-tel" type="text">
+            <input class="popup__input popup__input-mail" type="text">
+            <button class="popup__send"></button>
         </div>
         <div class="popup__close-btn"></div>
     </div>
     <div class="burger">
         <div class="burger__content">
-            <img class="header-section__logo" src="resources/logo-metrica.png" alt="логотип сайта">
-            <nav class="nav">
+            <img src="resources/logo-metrica.png" alt="логотип сайта">
+            <nav class="nav burger__nav">
                 <a href="#about-us" class="nav__link">О НАС</a>
                 <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
                 <a href="#services" class="nav__link">УСЛУГИ</a>
