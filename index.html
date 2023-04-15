@@ -14,6 +14,30 @@
 </head>
 
 <body>
+    <div class="js-popup popup">
+        <div class="js-popup__content popup__content">
+            <p class="popup__title">Заказать услугу</p>
+            <p class="popup__subtitle">Заполните форму, мы свяжемся с вами в течение суток
+            </p>
+            <input class="input popup__input" type="text">
+            <input class="input popup__input" type="text">
+            <input class="input popup__input" type="text">
+            <button class="button popup__btn">Отправить</button>
+            <button class="js-popup__close-btn popup__close-btn">close</div>
+        </div>
+        
+    </div>
+    <div class="burger">
+        <div class="burger__content">
+            <img src="resources/logo-metrica.png" alt="логотип сайта">
+            <nav class="nav burger__nav">
+                <a href="#about-us" class="nav__link">О НАС</a>
+                <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
+                <a href="#services" class="nav__link">УСЛУГИ</a>
+                <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+            </nav>
+        </div>
+    </div>
     <header>
         <section class="header-section">
             <div class="header-section__logo">
@@ -127,7 +151,7 @@
                         <h3 class="service__title">Комплектация</h3>
                     </li>
                 </ul>
-                <btn class="button reverse-button" href="">Заказать услугу</btn>
+                <button class="js-btn button reverse-button" href="">Заказать услугу</btn>
             </section>
         </div>
         <section class="feedback-section margin-top-section">
@@ -247,29 +271,8 @@
             </section>
         </div>
     </footer>
-    <div class="popup">
-        <div class="popup__content">
-            <p class="popup__title"></p>
-            <p class="popup__subtitle"></p>
-            <input class="popup__input popup__input-name" type="text">
-            <input class="popup__input popup__input-tel" type="text">
-            <input class="popup__input popup__input-mail" type="text">
-            <button class="popup__send"></button>
-        </div>
-        <div class="popup__close-btn"></div>
-    </div>
-    <div class="burger">
-        <div class="burger__content">
-            <img src="resources/logo-metrica.png" alt="логотип сайта">
-            <nav class="nav burger__nav">
-                <a href="#about-us" class="nav__link">О НАС</a>
-                <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
-                <a href="#services" class="nav__link">УСЛУГИ</a>
-                <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
-            </nav>
-        </div>
-    </div>
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
 </body>
 
 </html>

@@ -17,15 +17,30 @@
 }
 
 .reverse-button {
+    width: 100%;
     color: #fff;
     background-color: #ad1818;
-    cursor: pointer;
-    letter-spacing: -0.03em;
+}
+
+.reverse-button:hover {
+    color: #ad1818;
+    background-color: #fff;
+}
+
+.popup__btn {
+    width: 100%;
+    padding: 20px;
 }
 
 @media (max-width: 1199px) {
     .button {
         padding: 55px;
+    }
+
+    .popup__btn {
+        font-size: 20px;
+        line-height: 27px;
+        padding: 20px;
     }
 }
 

@@ -1,6 +1,7 @@
 @import "styles/heading.css";
 @import "styles/buttons.css";
 @import "styles/nav.css";
+@import "styles/popup.css";
 @import "styles/1header.css";
 @import "styles/2welcome-section.css";
 @import "styles/3about-us-section.css";
@@ -19,6 +20,10 @@ html {
 body {
     font-family: 'Manrope', sans-serif;
     height: 100%;
+}
+
+.body-fixed{
+    overflow: hidden;
 }
 
 section,
@@ -41,6 +46,11 @@ section,
     background-color: #000;
     color: #fff;
     min-width: 1400px;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
 }
 
 @media (max-width: 1199px) {
