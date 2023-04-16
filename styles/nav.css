@@ -21,12 +21,12 @@
 }
 
 @media (max-width: 1199px) {
-    .header-section__nav{
+    .header-section__nav {
         display: none;
     }
 }
 
-@media (max-width: 767px)  {
+@media (max-width: 767px) {
     .nav {
         width: 281px;
     }
