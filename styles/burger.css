@@ -79,7 +79,7 @@
     gap: 20px;
 }
 
-.burger__nav a {
+.burger__nav a {    
     color: #121212;
 }
 
@@ -105,5 +105,10 @@
 @media (max-width: 1199px) {
     .header-section__burger-open {
         display: block;
+    }
+
+    .burger__nav a {    
+        font-size: 25px;
+        line-height: 34px;
     }
 }

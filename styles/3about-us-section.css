@@ -13,12 +13,6 @@
     background-color: #ad1818;
     font-size: 20px;
     text-decoration: none;
-    transition: all 0.2s;
-}
-
-.about-us-section__link:hover {
-    transform: rotate(5deg);
-    scale: 1.2;
 }
 
 @media (max-width: 1199px) {
