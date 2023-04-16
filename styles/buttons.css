@@ -41,6 +41,7 @@
 
     .popup__btn {
         padding: 20px;
+        line-height: 27px;
     }
 }
 
@@ -54,5 +55,6 @@
 
     .popup__btn {
         padding: 20px;
+        line-height: 27px;
     }
 }
