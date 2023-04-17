@@ -58,6 +58,7 @@ button {
 
 @media (max-width: 1199px) {
     section {
+        width: 100%;
         max-width: 960px;
         padding-left: 17px;
         padding-right: 15px;
@@ -73,7 +74,7 @@ button {
 
     .black-container {
         width: 100%;
-        min-width: 960px;
+        min-width: auto;
     }
 }
 
