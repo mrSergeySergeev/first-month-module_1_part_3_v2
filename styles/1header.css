@@ -1,4 +1,4 @@
-.header-section {
+.header {
     margin-top: 33px;
     margin-bottom: 68px;
     display: flex;
@@ -6,13 +6,13 @@
 }
 
 @media (max-width: 1199px) {
-    .header-section {
+    .header {
         margin-top: 30px;
     }
 }
 
 @media (max-width: 767px) {
-    .header-section {
+    .header {
         margin-top: 31px;
         margin-bottom: 61px;
     }

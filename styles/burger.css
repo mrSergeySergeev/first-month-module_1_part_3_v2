@@ -1,4 +1,4 @@
-.header-section__burger-open {
+.header__burger-open {
     display: none;
     border: none;
 }
@@ -54,7 +54,7 @@
     visibility: visible;
 }
 
-.header-section__burger-open {
+.header__burger-open {
     z-index: 100;
 }
 
@@ -103,7 +103,7 @@
 }
 
 @media (max-width: 1199px) {
-    .header-section__burger-open {
+    .header__burger-open {
         display: block;
     }
 

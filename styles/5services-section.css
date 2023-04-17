@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 1199px) {
-    .services-section {
+    .services {
         padding-bottom: 120px;
     }
 
@@ -70,7 +70,7 @@
 }
 
 @media (max-width: 767px) {
-    .services-section {
+    .services {
         padding-top: 80px;
         padding-bottom: 80px;
     }

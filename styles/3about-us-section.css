@@ -1,11 +1,11 @@
-.about-us-section__description {
+.about-us__description {
     margin-bottom: 35px;
     width: 1048px;
     font-size: 45px;
     line-height: 61px;
 }
 
-.about-us-section__link {
+.about-us__link {
     display: inline-block;
     padding: 20px 40px 20px 40px;
     border-radius: 5px;
@@ -17,27 +17,27 @@
 
 @media (max-width: 1199px) {
 
-    .about-us-section__description {
+    .about-us__description {
         margin-bottom: 30px;
         width: 690px;
         font-size: 35px;
         line-height: 48px;
     }
 
-    .about-us-section__link {
+    .about-us__link {
         padding: 23px 40px 23px 40px;
     }
 }
 
 @media (max-width: 767px) {
-    .about-us-section__description {
+    .about-us__description {
         margin-bottom: 30px;
         width: 100%;
         font-size: 22px;
         line-height: 30px;
     }
 
-    .about-us-section__link {
+    .about-us__link {
         padding: 14px 27px 14px 27px;
         border-radius: 5px;
         color: #fff;
