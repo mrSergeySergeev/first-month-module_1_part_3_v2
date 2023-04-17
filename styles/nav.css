@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.header-__nav a {
+.header__nav a {
     color: #121212;
 }
 
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 1199px) {
-    .header-section__nav {
+    .header__nav {
         display: none;
     }
 }
