@@ -10,7 +10,7 @@
 }
 
 .feedback:last-child:nth-child(odd) {
-    width: calc(50% + 25%);
+    width: calc(75%);
 }
 
 .feedback__title {
