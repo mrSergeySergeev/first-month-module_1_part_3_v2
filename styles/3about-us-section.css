@@ -1,6 +1,6 @@
 .about-us__description {
     margin-bottom: 35px;
-    width: 1048px;
+    max-width: 1048px;
     font-size: 45px;
     line-height: 61px;
 }
@@ -19,7 +19,7 @@
 
     .about-us__description {
         margin-bottom: 30px;
-        width: 690px;
+        max-width: 690px;
         font-size: 35px;
         line-height: 48px;
     }
@@ -33,6 +33,7 @@
     .about-us__description {
         margin-bottom: 30px;
         width: 100%;
+        max-width: 550px;
         font-size: 22px;
         line-height: 30px;
     }
