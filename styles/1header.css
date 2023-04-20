@@ -16,4 +16,10 @@
         margin-top: 31px;
         margin-bottom: 61px;
     }
+
+    .header__logo img {
+        width: 96px;
+        height: 16px;
+        object-position: center;
+    }
 }
